@@ -1,0 +1,11 @@
+1. What is backend development?
+the backend is the engine of a car
+Backend development is the server-side part of a web application. It handles requests from the frontend, processes data, applies business logic, and communicates with databases or other services. Users never see the backend directly, they only see the results it sends back through the frontend
+
+2. Give 2 examples of backend frameworks.
+- Server: executes backend code and handles incoming requests (e.g. Node.js + Express.js)
+- Database: stores and retrieves persistent data (e.g. MySQL, MongoDB)
+
+3. What is an API?
+Enables communication between frontend, backend and external services
+Like REST, GraphQL, gRPC
