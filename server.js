@@ -1,6 +1,9 @@
-const http = require('http');
-http.createServer((req, res) => {
-   res.write("Backend server running!");
-   res.end();
-}).listen(3000);
+const http = require("http");
 
+const server = http.createServer((req, res) => {
+  res.end("Hello from backend!");
+});
+
+server.listen(3000, () => {
+  console.log("Server running at http://localhost:3000");
+});
